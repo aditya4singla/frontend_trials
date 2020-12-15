@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /*we do this so that the box
+     included padding and border not just content */
+}
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2 {
+    color: rgba(20, 84, 143, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 {
+    color:rgba(221, 117, 19, 0.87);
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+p { 
+    text-align: left;   
+}
+/* classes are better since they may be used multiple times
+    while ids can only be used once in the html page... */
+.main-text{
+    margin-bottom: 20px;
+}
+.best-character{
+    font-size: 25px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.container {
+    width: 1140px;
+    /* margin: top right bottom left; */
+    margin: 20px auto 0 auto;
+}
+.blog-post{
+    width: 65%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+.other-posts{
+    width:35%;
+    float: left;
+    padding-left: 10px;
+}
+.character-box{
+    border-top: 3px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.other {
+    margin-bottom: 40px;
+    padding-right: 30px;
+    position: relative;
+}
+.character-box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+}
+.date {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    color: sandybrown;
+    font-family: cursive;
+}
