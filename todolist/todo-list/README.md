@@ -1,2 +1,2 @@
 
-![](todolist/screenshot.png)
+![](/todolist/screenshot.png)
